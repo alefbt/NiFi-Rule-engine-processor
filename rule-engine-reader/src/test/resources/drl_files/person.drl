@@ -1,0 +1,24 @@
+package com.rules
+
+import com.matrixbi.utils.tests.Person
+
+rule "Good Morning"
+when
+person: Person(time >= 0, time < 12)
+then
+person.setGreet("Good Morning " + person.getName());
+end
+
+rule "Good Afternoon"
+when
+person: Person(time >= 12, time < 16)
+then
+person.setGreet("Good Afternoon " + person.getName());
+end
+
+rule "Good Night"
+when
+person: Person(time >= 16, time <= 24)
+then
+person.setGreet("Good Night " + person.getName());
+end

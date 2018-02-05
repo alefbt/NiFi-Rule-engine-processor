@@ -14,12 +14,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.matrixbi.nifi.processor.ruleengien;
+package com.matrixbi.nifi.processor.ruleengien.tests;
 
 import org.apache.nifi.util.TestRunner;
 import org.apache.nifi.util.TestRunners;
 import org.junit.Before;
 import org.junit.Test;
+
+import com.matrixbi.nifi.processor.ruleengien.MyProcessor;
 
 
 public class MyProcessorTest {
