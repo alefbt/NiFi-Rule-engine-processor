@@ -47,6 +47,7 @@ import org.apache.nifi.processor.exception.ProcessException;
 import org.apache.nifi.processor.io.InputStreamCallback;
 import org.apache.nifi.processor.io.OutputStreamCallback;
 import org.apache.nifi.processor.util.StandardValidators;
+import org.kie.api.definition.type.Description;
 
 import com.matrixbi.objects.JsonBusinessObjects;
 import com.matrixbi.utils.RuleEngine;
@@ -55,7 +56,7 @@ import com.matrixbi.utils.RuleEngine;
 @SideEffectFree
 @Tags({"Rule Engine","Processor","Drools","drl","MatrixBI"})
 @CapabilityDescription("Rule engine for nifi")
-
+@Description("This is rule engien")
 public class RuleEngineProcessor extends AbstractProcessor {
 
     public static final PropertyDescriptor DRL_PATH = new PropertyDescriptor

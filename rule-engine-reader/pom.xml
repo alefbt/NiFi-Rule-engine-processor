@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.matrixbi</groupId>
-		<artifactId>nifi-ruleengien-processor</artifactId>
+		<artifactId>ruleengine-processor</artifactId>
 		<version>1.0</version>
 	</parent>
 	<artifactId>rule-engine-reader</artifactId>
