@@ -58,16 +58,6 @@ import com.matrixbi.utils.RuleEngine;
 
 public class RuleEngineProcessor extends AbstractProcessor {
 
-
-   public static final PropertyDescriptor CHARACTER_SET = new PropertyDescriptor.Builder()
-        .name("Character Set")
-        .description("The Character Set in which the file is encoded")
-        .required(true)
-        .addValidator(StandardValidators.CHARACTER_SET_VALIDATOR)
-        .defaultValue("UTF-8")
-        .build();
-   
-   
     public static final PropertyDescriptor DRL_PATH = new PropertyDescriptor
         .Builder().name("DRL file path")
         .displayName("DRL file path")
@@ -97,7 +87,6 @@ public class RuleEngineProcessor extends AbstractProcessor {
     
     private static HashMap<String,RuleEngine> ruleEngineServices = new HashMap<>();
     
-    		//RuleEngine.createSession(file.getAbsolutePath());
     private ComponentLog log;
     
     
@@ -115,7 +104,6 @@ public class RuleEngineProcessor extends AbstractProcessor {
 
     	final List<PropertyDescriptor> descriptors = new ArrayList<PropertyDescriptor>();
 	        descriptors.add(DRL_PATH);
-	        descriptors.add(CHARACTER_SET);
         this.descriptors = Collections.unmodifiableList(descriptors);
 
         final Set<Relationship> relationships = new HashSet<Relationship>();
@@ -136,7 +124,6 @@ public class RuleEngineProcessor extends AbstractProcessor {
 
     @OnScheduled
     public void onScheduled(final ProcessContext context) {
-    	log.debug("onscheduled");
     }
 
     @Override
