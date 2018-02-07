@@ -1,0 +1,13 @@
+[
+	{
+	"time": 11,
+	"greet": "Default text",
+	"name":"Yehuda"
+	},
+	
+	{
+	"time": 14,
+	"greet": "Default text",
+	"name":"Moshe"
+	}
+]

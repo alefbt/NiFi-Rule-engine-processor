@@ -1,6 +1,6 @@
-package com.matrixbi.nifi.processor.ruleengien.tests
+package com.matrixbi.nifi.processor.tests
 
-import com.matrixbi.nifi.processor.ruleengien.tests.Person
+import com.matrixbi.nifi.processor.tests.Person
 
 rule "Good Morning"
 when

@@ -1,0 +1,27 @@
+package com.matrixbi.rules
+
+import com.matrixbi.objects.BusinessObject
+
+rule "Good Morning"
+when
+	b: BusinessObject()
+eval( b.getAsInt("time") < 12 )
+then
+	b.set("greet","G00d Morning " + b.get("name")); 
+end
+
+rule "Good Afternoon"
+when
+	b: BusinessObject()
+	eval(b.getAsInt("time") >=12 && b.getAsInt("time") < 16)
+then
+	b.set("greet","Good Afternoon " + b.get("name"));
+end
+
+rule "Good Night"
+when
+	b: BusinessObject()
+	eval(b.getAsInt("time") >= 16)
+then
+	b.set("greet","Good Afternoon " + b.get("name"));
+end

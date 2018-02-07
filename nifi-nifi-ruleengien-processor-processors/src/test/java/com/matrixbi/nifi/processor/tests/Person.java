@@ -1,4 +1,4 @@
-package com.matrixbi.nifi.processor.ruleengien.tests;
+package com.matrixbi.nifi.processor.tests;
 
 
 public class Person implements java.io.Serializable{
