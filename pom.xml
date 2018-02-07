@@ -28,9 +28,9 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>rule-engine-reader</module>
         <module>nifi-nifi-ruleengien-processor-processors</module>
         <module>nifi-nifi-ruleengien-processor-nar</module>
-        <module>rule-engine-reader</module>
     </modules>
 
 
