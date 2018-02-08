@@ -1,5 +1,6 @@
 בס"ד
 
+[![Build Status](https://travis-ci.org/alefbt/NiFi-Rule-engine-processor.svg?branch=master)](https://travis-ci.org/alefbt/NiFi-Rule-engine-processor)
 
 [<img src="docs/matrixbi-logo.png">](http://www.matrixbi.co.il/)
 
