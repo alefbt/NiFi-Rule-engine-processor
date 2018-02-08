@@ -1,8 +1,7 @@
 בס"ד
 
 
-[<img src="http://wiki.korotkin.co.il/_media/marix-bi-logo-transpent.png" width="20%">](http://www.matrixbi.co.il/)
-
+[<img src="docs/matrixbi-logo.png">](http://www.matrixbi.co.il/)
 
 # NiFi-Rule-engine-processor
 ## Overview
