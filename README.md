@@ -1,10 +1,12 @@
 בס"ד
 
-[![Build Status](https://travis-ci.org/alefbt/NiFi-Rule-engine-processor.svg?branch=master)](https://travis-ci.org/alefbt/NiFi-Rule-engine-processor)
+[![MatrixBI](docs/matrixbi-logo.png)](http://www.matrixbi.co.il/)
 
-[<img src="docs/matrixbi-logo.png">](http://www.matrixbi.co.il/)
 
 # NiFi-Rule-engine-processor
+
+[![Build Status](https://travis-ci.org/alefbt/NiFi-Rule-engine-processor.svg?branch=master)](https://travis-ci.org/alefbt/NiFi-Rule-engine-processor)
+
 ## Overview
 ١. Drools is a Business Rules Management System (BRMS) solution. It provides a core Business Rules Engine (BRE), a web authoring and rules management application (Drools Workbench) and an Eclipse IDE plugin for core development.
 
