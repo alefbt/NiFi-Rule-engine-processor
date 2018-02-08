@@ -1,4 +1,16 @@
+בס"ד
+
+
+[<img src="http://wiki.korotkin.co.il/_media/marix-bi-logo-transpent.png" width="20%">](http://www.matrixbi.co.il/)
+
+
 # NiFi-Rule-engine-processor
+## Overview
+١. Drools is a Business Rules Management System (BRMS) solution. It provides a core Business Rules Engine (BRE), a web authoring and rules management application (Drools Workbench) and an Eclipse IDE plugin for core development.
+
+٢. Apache NiFi (short for NiagaraFiles) is a software project from the Apache Software Foundation designed to automate the flow of data between software systems. 
+
+٣. When talking data flow some times need apply rules on data, and we created NiFi Rule Engine
 
 ## How to install:
 1. `mvn clean install package`
