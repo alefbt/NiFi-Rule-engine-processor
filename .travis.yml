@@ -1,3 +1,4 @@
 language: java
 script: mvn clean verify
-
+after_success:
+  - mvn clean test jacoco:report coveralls:report -pl nifi-ruleengien-processor-processors
