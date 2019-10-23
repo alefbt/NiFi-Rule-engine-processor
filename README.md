@@ -6,7 +6,6 @@
 
 # NiFi-Rule-engine-processor
 
-[![Build Status](https://travis-ci.org/alefbt/NiFi-Rule-engine-processor.svg?branch=master)](https://travis-ci.org/alefbt/NiFi-Rule-engine-processor)
 [![Coverage Status](https://coveralls.io/repos/github/alefbt/NiFi-Rule-engine-processor/badge.svg?branch=master)](https://coveralls.io/github/alefbt/NiFi-Rule-engine-processor?branch=master)
 
 ## Overview
